@@ -7,9 +7,11 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
+#import "SZEasyTest.h"
+#import "SZWeekPoolTests.h"
 
 @interface AppDelegate ()
-
 @end
 
 @implementation AppDelegate
@@ -17,6 +19,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+ 
+    ViewController *vc = [[ViewController alloc] init];
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:vc];
+    self.window.rootViewController = navigationController;
+    
+    [self.window makeKeyAndVisible];
+
+    NSLog(@"\r\n");
+    [SZEasyTest runTests];
+    [SZWeekPoolTests runTests];
     return YES;
 }
 

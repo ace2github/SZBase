@@ -9,12 +9,26 @@
 /* Begin PBXBuildFile section */
 		1CBE71CB21F57AE700387345 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBE71CA21F57AE700387345 /* AppDelegate.m */; };
 		1CBE71CE21F57AE700387345 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBE71CD21F57AE700387345 /* ViewController.m */; };
-		1CBE71D121F57AE700387345 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CBE71CF21F57AE700387345 /* Main.storyboard */; };
 		1CBE71D321F57AE900387345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CBE71D221F57AE900387345 /* Assets.xcassets */; };
-		1CBE71D621F57AE900387345 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CBE71D421F57AE900387345 /* LaunchScreen.storyboard */; };
 		1CBE71D921F57AE900387345 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBE71D821F57AE900387345 /* main.m */; };
 		1CBE71E321F57AEA00387345 /* SZBaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBE71E221F57AEA00387345 /* SZBaseTests.m */; };
 		1CBE71EE21F57AEA00387345 /* SZBaseUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBE71ED21F57AEA00387345 /* SZBaseUITests.m */; };
+		1CBE720621F5C07900387345 /* SZEasyUrlRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBE71FF21F5C07900387345 /* SZEasyUrlRouter.m */; };
+		1CBE720721F5C07900387345 /* SZEasyUrlRouter+Patterns.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBE720121F5C07900387345 /* SZEasyUrlRouter+Patterns.m */; };
+		1CBE720821F5C07900387345 /* SZEasyRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBE720321F5C07900387345 /* SZEasyRouter.m */; };
+		1CBE720921F5C07900387345 /* SZEasyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBE720521F5C07900387345 /* SZEasyTest.m */; };
+		1CBE720B21F5C4CC00387345 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CBE720A21F5C4CC00387345 /* Launch Screen.storyboard */; };
+		1CBE720C21F5C4CC00387345 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1CBE720A21F5C4CC00387345 /* Launch Screen.storyboard */; };
+		1CBE721021F5CA1500387345 /* SZWeekArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBE720F21F5CA1500387345 /* SZWeekArray.m */; };
+		1CBE721121F5CA1500387345 /* SZWeekArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBE720F21F5CA1500387345 /* SZWeekArray.m */; };
+		1CBE721421F5CA2600387345 /* SZWeekDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBE721321F5CA2600387345 /* SZWeekDictionary.m */; };
+		1CBE721521F5CA2600387345 /* SZWeekDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBE721321F5CA2600387345 /* SZWeekDictionary.m */; };
+		1CBE721821F5CA3400387345 /* SZWeekSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBE721721F5CA3400387345 /* SZWeekSet.m */; };
+		1CBE721921F5CA3400387345 /* SZWeekSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBE721721F5CA3400387345 /* SZWeekSet.m */; };
+		1CBE721C21F5CCB000387345 /* SZWeekPoolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBE721B21F5CCB000387345 /* SZWeekPoolTests.m */; };
+		1CBE721D21F5CCB000387345 /* SZWeekPoolTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBE721B21F5CCB000387345 /* SZWeekPoolTests.m */; };
+		1CBE722121F7191400387345 /* SZMultiDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBE722021F7191400387345 /* SZMultiDelegate.m */; };
+		1CBE722221F7191400387345 /* SZMultiDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBE722021F7191400387345 /* SZMultiDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,9 +54,7 @@
 		1CBE71CA21F57AE700387345 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1CBE71CC21F57AE700387345 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1CBE71CD21F57AE700387345 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1CBE71D021F57AE700387345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1CBE71D221F57AE900387345 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		1CBE71D521F57AE900387345 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1CBE71D721F57AE900387345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1CBE71D821F57AE900387345 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1CBE71DE21F57AEA00387345 /* SZBaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SZBaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +63,25 @@
 		1CBE71E921F57AEA00387345 /* SZBaseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SZBaseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CBE71ED21F57AEA00387345 /* SZBaseUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZBaseUITests.m; sourceTree = "<group>"; };
 		1CBE71EF21F57AEA00387345 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CBE71FE21F5C07900387345 /* SZEasyUrlRouter+Patterns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SZEasyUrlRouter+Patterns.h"; sourceTree = "<group>"; };
+		1CBE71FF21F5C07900387345 /* SZEasyUrlRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZEasyUrlRouter.m; sourceTree = "<group>"; };
+		1CBE720021F5C07900387345 /* SZEasyRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZEasyRouter.h; sourceTree = "<group>"; };
+		1CBE720121F5C07900387345 /* SZEasyUrlRouter+Patterns.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SZEasyUrlRouter+Patterns.m"; sourceTree = "<group>"; };
+		1CBE720221F5C07900387345 /* SZEasyUrlRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZEasyUrlRouter.h; sourceTree = "<group>"; };
+		1CBE720321F5C07900387345 /* SZEasyRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZEasyRouter.m; sourceTree = "<group>"; };
+		1CBE720421F5C07900387345 /* SZEasyTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZEasyTest.h; sourceTree = "<group>"; };
+		1CBE720521F5C07900387345 /* SZEasyTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZEasyTest.m; sourceTree = "<group>"; };
+		1CBE720A21F5C4CC00387345 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		1CBE720E21F5CA1500387345 /* SZWeekArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZWeekArray.h; sourceTree = "<group>"; };
+		1CBE720F21F5CA1500387345 /* SZWeekArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZWeekArray.m; sourceTree = "<group>"; };
+		1CBE721221F5CA2600387345 /* SZWeekDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZWeekDictionary.h; sourceTree = "<group>"; };
+		1CBE721321F5CA2600387345 /* SZWeekDictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZWeekDictionary.m; sourceTree = "<group>"; };
+		1CBE721621F5CA3400387345 /* SZWeekSet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZWeekSet.h; sourceTree = "<group>"; };
+		1CBE721721F5CA3400387345 /* SZWeekSet.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZWeekSet.m; sourceTree = "<group>"; };
+		1CBE721A21F5CCB000387345 /* SZWeekPoolTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZWeekPoolTests.h; sourceTree = "<group>"; };
+		1CBE721B21F5CCB000387345 /* SZWeekPoolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZWeekPoolTests.m; sourceTree = "<group>"; };
+		1CBE721F21F7191400387345 /* SZMultiDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZMultiDelegate.h; sourceTree = "<group>"; };
+		1CBE722021F7191400387345 /* SZMultiDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZMultiDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,13 +132,12 @@
 		1CBE71C821F57AE700387345 /* SZBase */ = {
 			isa = PBXGroup;
 			children = (
+				1CBE71FB21F5C07900387345 /* Sources */,
 				1CBE71C921F57AE700387345 /* AppDelegate.h */,
 				1CBE71CA21F57AE700387345 /* AppDelegate.m */,
 				1CBE71CC21F57AE700387345 /* ViewController.h */,
 				1CBE71CD21F57AE700387345 /* ViewController.m */,
-				1CBE71CF21F57AE700387345 /* Main.storyboard */,
 				1CBE71D221F57AE900387345 /* Assets.xcassets */,
-				1CBE71D421F57AE900387345 /* LaunchScreen.storyboard */,
 				1CBE71D721F57AE900387345 /* Info.plist */,
 				1CBE71D821F57AE900387345 /* main.m */,
 			);
@@ -119,6 +149,7 @@
 			children = (
 				1CBE71E221F57AEA00387345 /* SZBaseTests.m */,
 				1CBE71E421F57AEA00387345 /* Info.plist */,
+				1CBE720A21F5C4CC00387345 /* Launch Screen.storyboard */,
 			);
 			path = SZBaseTests;
 			sourceTree = "<group>";
@@ -130,6 +161,63 @@
 				1CBE71EF21F57AEA00387345 /* Info.plist */,
 			);
 			path = SZBaseUITests;
+			sourceTree = "<group>";
+		};
+		1CBE71FB21F5C07900387345 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				1CBE721E21F718F900387345 /* SZMultiDelegate */,
+				1CBE720D21F5C70E00387345 /* SZWeekPool */,
+				1CBE71FC21F5C07900387345 /* SZEasyRouter */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		1CBE71FC21F5C07900387345 /* SZEasyRouter */ = {
+			isa = PBXGroup;
+			children = (
+				1CBE71FD21F5C07900387345 /* core */,
+				1CBE720421F5C07900387345 /* SZEasyTest.h */,
+				1CBE720521F5C07900387345 /* SZEasyTest.m */,
+			);
+			path = SZEasyRouter;
+			sourceTree = "<group>";
+		};
+		1CBE71FD21F5C07900387345 /* core */ = {
+			isa = PBXGroup;
+			children = (
+				1CBE720021F5C07900387345 /* SZEasyRouter.h */,
+				1CBE720321F5C07900387345 /* SZEasyRouter.m */,
+				1CBE720221F5C07900387345 /* SZEasyUrlRouter.h */,
+				1CBE71FF21F5C07900387345 /* SZEasyUrlRouter.m */,
+				1CBE71FE21F5C07900387345 /* SZEasyUrlRouter+Patterns.h */,
+				1CBE720121F5C07900387345 /* SZEasyUrlRouter+Patterns.m */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		1CBE720D21F5C70E00387345 /* SZWeekPool */ = {
+			isa = PBXGroup;
+			children = (
+				1CBE720E21F5CA1500387345 /* SZWeekArray.h */,
+				1CBE720F21F5CA1500387345 /* SZWeekArray.m */,
+				1CBE721221F5CA2600387345 /* SZWeekDictionary.h */,
+				1CBE721321F5CA2600387345 /* SZWeekDictionary.m */,
+				1CBE721621F5CA3400387345 /* SZWeekSet.h */,
+				1CBE721721F5CA3400387345 /* SZWeekSet.m */,
+				1CBE721A21F5CCB000387345 /* SZWeekPoolTests.h */,
+				1CBE721B21F5CCB000387345 /* SZWeekPoolTests.m */,
+			);
+			path = SZWeekPool;
+			sourceTree = "<group>";
+		};
+		1CBE721E21F718F900387345 /* SZMultiDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				1CBE721F21F7191400387345 /* SZMultiDelegate.h */,
+				1CBE722021F7191400387345 /* SZMultiDelegate.m */,
+			);
+			path = SZMultiDelegate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,9 +323,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1CBE71D621F57AE900387345 /* LaunchScreen.storyboard in Resources */,
+				1CBE720B21F5C4CC00387345 /* Launch Screen.storyboard in Resources */,
 				1CBE71D321F57AE900387345 /* Assets.xcassets in Resources */,
-				1CBE71D121F57AE700387345 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +332,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CBE720C21F5C4CC00387345 /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +350,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CBE721021F5CA1500387345 /* SZWeekArray.m in Sources */,
+				1CBE721C21F5CCB000387345 /* SZWeekPoolTests.m in Sources */,
 				1CBE71CE21F57AE700387345 /* ViewController.m in Sources */,
+				1CBE722121F7191400387345 /* SZMultiDelegate.m in Sources */,
+				1CBE720821F5C07900387345 /* SZEasyRouter.m in Sources */,
+				1CBE721421F5CA2600387345 /* SZWeekDictionary.m in Sources */,
+				1CBE720721F5C07900387345 /* SZEasyUrlRouter+Patterns.m in Sources */,
+				1CBE721821F5CA3400387345 /* SZWeekSet.m in Sources */,
 				1CBE71D921F57AE900387345 /* main.m in Sources */,
 				1CBE71CB21F57AE700387345 /* AppDelegate.m in Sources */,
+				1CBE720621F5C07900387345 /* SZEasyUrlRouter.m in Sources */,
+				1CBE720921F5C07900387345 /* SZEasyTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +369,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CBE721D21F5CCB000387345 /* SZWeekPoolTests.m in Sources */,
+				1CBE721521F5CA2600387345 /* SZWeekDictionary.m in Sources */,
+				1CBE721121F5CA1500387345 /* SZWeekArray.m in Sources */,
+				1CBE722221F7191400387345 /* SZMultiDelegate.m in Sources */,
 				1CBE71E321F57AEA00387345 /* SZBaseTests.m in Sources */,
+				1CBE721921F5CA3400387345 /* SZWeekSet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,25 +400,6 @@
 			targetProxy = 1CBE71EA21F57AEA00387345 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		1CBE71CF21F57AE700387345 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1CBE71D021F57AE700387345 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		1CBE71D421F57AE900387345 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				1CBE71D521F57AE900387345 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		1CBE71F021F57AEA00387345 /* Debug */ = {
@@ -437,6 +520,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SZBase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +537,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SZBase/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
