@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.source       = { :git => "https://github.com/ace2github/SZBase.git", :tag => s.version }
 
-  s.source_files = 'SZBase/Sources/**/*.{h,m}'
+  s.source_files = 'SZBase/Sources/**/*'
 
  # s.default_subspec='All'
 
