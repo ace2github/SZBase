@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SZBase"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "SZBase 是基础工具类库"
 
   s.description  = <<-DESC
@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
                    DESC
 
   s.homepage     = "https://github.com/ace2github/SZBase"
-  s.license      = { :type => "MIT", :file => "LICENSE" }
+  s.license      = 'MIT'
 
   s.author             = { "ChaohuiChen" => "173141667@qq.com" }
 
