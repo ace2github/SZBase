@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C0E0B962201951C00D5C608 /* SZRWLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0E0B932201951C00D5C608 /* SZRWLock.m */; };
+		1C0E0B972201951C00D5C608 /* SZRWLockTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C0E0B942201951C00D5C608 /* SZRWLockTest.m */; };
 		1CBE71CB21F57AE700387345 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBE71CA21F57AE700387345 /* AppDelegate.m */; };
 		1CBE71CE21F57AE700387345 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBE71CD21F57AE700387345 /* ViewController.m */; };
 		1CBE71D321F57AE900387345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CBE71D221F57AE900387345 /* Assets.xcassets */; };
@@ -49,6 +51,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C0E0B922201951C00D5C608 /* SZRWLockTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZRWLockTest.h; sourceTree = "<group>"; };
+		1C0E0B932201951C00D5C608 /* SZRWLock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZRWLock.m; sourceTree = "<group>"; };
+		1C0E0B942201951C00D5C608 /* SZRWLockTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZRWLockTest.m; sourceTree = "<group>"; };
+		1C0E0B952201951C00D5C608 /* SZRWLock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZRWLock.h; sourceTree = "<group>"; };
 		1CBE71C621F57AE700387345 /* SZBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SZBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CBE71C921F57AE700387345 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1CBE71CA21F57AE700387345 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -109,6 +115,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C0E0B912201951C00D5C608 /* SZRWLock */ = {
+			isa = PBXGroup;
+			children = (
+				1C0E0B952201951C00D5C608 /* SZRWLock.h */,
+				1C0E0B932201951C00D5C608 /* SZRWLock.m */,
+				1C0E0B922201951C00D5C608 /* SZRWLockTest.h */,
+				1C0E0B942201951C00D5C608 /* SZRWLockTest.m */,
+			);
+			path = SZRWLock;
+			sourceTree = "<group>";
+		};
 		1CBE71BD21F57AE700387345 = {
 			isa = PBXGroup;
 			children = (
@@ -166,6 +183,7 @@
 		1CBE71FB21F5C07900387345 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				1C0E0B912201951C00D5C608 /* SZRWLock */,
 				1CBE721E21F718F900387345 /* SZMultiDelegate */,
 				1CBE720D21F5C70E00387345 /* SZWeekPool */,
 				1CBE71FC21F5C07900387345 /* SZEasyRouter */,
@@ -350,9 +368,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C0E0B962201951C00D5C608 /* SZRWLock.m in Sources */,
 				1CBE721021F5CA1500387345 /* SZWeekArray.m in Sources */,
 				1CBE721C21F5CCB000387345 /* SZWeekPoolTests.m in Sources */,
 				1CBE71CE21F57AE700387345 /* ViewController.m in Sources */,
+				1C0E0B972201951C00D5C608 /* SZRWLockTest.m in Sources */,
 				1CBE722121F7191400387345 /* SZMultiDelegate.m in Sources */,
 				1CBE720821F5C07900387345 /* SZEasyRouter.m in Sources */,
 				1CBE721421F5CA2600387345 /* SZWeekDictionary.m in Sources */,
