@@ -44,6 +44,7 @@
 }
 
 - (BOOL)registerWithImpl:(id<SZYModule>)impl {
+    // 只能注册一次实现
     if (self.impl) {
         return NO;
     } else {

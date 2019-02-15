@@ -15,6 +15,11 @@
 		1C11444622169AE2006BD56D /* SZAccountImplementation.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C11444522169AE2006BD56D /* SZAccountImplementation.m */; };
 		1C11444922169B46006BD56D /* SZModuleTester.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C11444822169B46006BD56D /* SZModuleTester.m */; };
 		1C11444D22169C83006BD56D /* SZModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C11444C22169C83006BD56D /* SZModule.m */; };
+		1C11445B2216A872006BD56D /* SZAppHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1144582216A872006BD56D /* SZAppHandler.m */; };
+		1C11445C2216A872006BD56D /* SZAppLife.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1144592216A872006BD56D /* SZAppLife.m */; };
+		1C1144622216A8EE006BD56D /* SZBaseTester.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1144612216A8EE006BD56D /* SZBaseTester.m */; };
+		1C1144642216A948006BD56D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1C1144632216A948006BD56D /* README.md */; };
+		1C1144672216A95C006BD56D /* SZAppLifeTester.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C1144662216A95C006BD56D /* SZAppLifeTester.m */; };
 		1CBE71CB21F57AE700387345 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBE71CA21F57AE700387345 /* AppDelegate.m */; };
 		1CBE71CE21F57AE700387345 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBE71CD21F57AE700387345 /* ViewController.m */; };
 		1CBE71D321F57AE900387345 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1CBE71D221F57AE900387345 /* Assets.xcassets */; };
@@ -74,6 +79,15 @@
 		1C11444822169B46006BD56D /* SZModuleTester.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZModuleTester.m; sourceTree = "<group>"; };
 		1C11444B22169C83006BD56D /* SZModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZModule.h; sourceTree = "<group>"; };
 		1C11444C22169C83006BD56D /* SZModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZModule.m; sourceTree = "<group>"; };
+		1C1144572216A872006BD56D /* SZAppLife.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZAppLife.h; sourceTree = "<group>"; };
+		1C1144582216A872006BD56D /* SZAppHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZAppHandler.m; sourceTree = "<group>"; };
+		1C1144592216A872006BD56D /* SZAppLife.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZAppLife.m; sourceTree = "<group>"; };
+		1C11445A2216A872006BD56D /* SZAppHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZAppHandler.h; sourceTree = "<group>"; };
+		1C1144602216A8EE006BD56D /* SZBaseTester.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZBaseTester.h; sourceTree = "<group>"; };
+		1C1144612216A8EE006BD56D /* SZBaseTester.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZBaseTester.m; sourceTree = "<group>"; };
+		1C1144632216A948006BD56D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		1C1144652216A95C006BD56D /* SZAppLifeTester.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SZAppLifeTester.h; sourceTree = "<group>"; };
+		1C1144662216A95C006BD56D /* SZAppLifeTester.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SZAppLifeTester.m; sourceTree = "<group>"; };
 		1CBE71C621F57AE700387345 /* SZBase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SZBase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1CBE71C921F57AE700387345 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1CBE71CA21F57AE700387345 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -181,6 +195,61 @@
 			path = Core;
 			sourceTree = "<group>";
 		};
+		1C11444E2216A38C006BD56D /* SZAppLife */ = {
+			isa = PBXGroup;
+			children = (
+				1C1144562216A871006BD56D /* Core */,
+				1C1144552216A871006BD56D /* Example */,
+			);
+			path = SZAppLife;
+			sourceTree = "<group>";
+		};
+		1C1144552216A871006BD56D /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				1C1144652216A95C006BD56D /* SZAppLifeTester.h */,
+				1C1144662216A95C006BD56D /* SZAppLifeTester.m */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		1C1144562216A871006BD56D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1C11445A2216A872006BD56D /* SZAppHandler.h */,
+				1C1144582216A872006BD56D /* SZAppHandler.m */,
+				1C1144572216A872006BD56D /* SZAppLife.h */,
+				1C1144592216A872006BD56D /* SZAppLife.m */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		1C11445D2216A8D9006BD56D /* SZTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				1C11445E2216A8D9006BD56D /* Core */,
+				1C11445F2216A8D9006BD56D /* Example */,
+			);
+			path = SZTemplate;
+			sourceTree = "<group>";
+		};
+		1C11445E2216A8D9006BD56D /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				1C1144632216A948006BD56D /* README.md */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		1C11445F2216A8D9006BD56D /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				1C1144602216A8EE006BD56D /* SZBaseTester.h */,
+				1C1144612216A8EE006BD56D /* SZBaseTester.m */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
 		1CBE71BD21F57AE700387345 = {
 			isa = PBXGroup;
 			children = (
@@ -238,6 +307,8 @@
 		1CBE71FB21F5C07900387345 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				1C11445D2216A8D9006BD56D /* SZTemplate */,
+				1C11444E2216A38C006BD56D /* SZAppLife */,
 				1C11443522169558006BD56D /* SZModule */,
 				1C0E0B912201951C00D5C608 /* SZRWLock */,
 				1CBE721E21F718F900387345 /* SZMultiDelegate */,
@@ -397,6 +468,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C1144642216A948006BD56D /* README.md in Resources */,
 				1CBE720B21F5C4CC00387345 /* Launch Screen.storyboard in Resources */,
 				1CBE71D321F57AE900387345 /* Assets.xcassets in Resources */,
 			);
@@ -432,10 +504,14 @@
 				1CBE71CE21F57AE700387345 /* ViewController.m in Sources */,
 				1C0E0B972201951C00D5C608 /* SZRWLockTest.m in Sources */,
 				1CBE722121F7191400387345 /* SZMultiDelegate.m in Sources */,
+				1C1144622216A8EE006BD56D /* SZBaseTester.m in Sources */,
+				1C1144672216A95C006BD56D /* SZAppLifeTester.m in Sources */,
+				1C11445C2216A872006BD56D /* SZAppLife.m in Sources */,
 				1C114443221699BA006BD56D /* SZLoginImplementation.m in Sources */,
 				1C11443C22169872006BD56D /* SZLoginModule.m in Sources */,
 				1CBE720821F5C07900387345 /* SZEasyRouter.m in Sources */,
 				1CBE721421F5CA2600387345 /* SZWeekDictionary.m in Sources */,
+				1C11445B2216A872006BD56D /* SZAppHandler.m in Sources */,
 				1C11443F22169881006BD56D /* SZAccountModule.m in Sources */,
 				1CBE720721F5C07900387345 /* SZEasyUrlRouter+Patterns.m in Sources */,
 				1CBE721821F5CA3400387345 /* SZWeekSet.m in Sources */,

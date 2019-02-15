@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "SZAppLifeTester.h"
 
 @interface ViewController ()
 
@@ -19,6 +20,7 @@
     // Do any additional setup after loading the view, typically from a nib.
     self.view.backgroundColor = UIColor.whiteColor;
     self.title = @"SZBaseDemo";
+    [SZAppLifeTester runTests];
 }
 
 
