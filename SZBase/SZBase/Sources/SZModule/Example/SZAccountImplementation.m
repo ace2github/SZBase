@@ -10,7 +10,7 @@
 
 @implementation SZAccountImplementation
 + (void)load {
-    [[SZAccountModule shareModule] implementWithImpl:[[self alloc] init]];
+    [[SZAccountModule shareModule] registerWithImpl:[[self alloc] init]];
 }
 
 - (void)storageAccount {

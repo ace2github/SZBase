@@ -10,7 +10,7 @@
 
 @implementation SZLoginImplementation
 + (void)load {
-    [[SZLoginModule shareModule] implementWithImpl:[[self alloc] init]];
+    [[SZLoginModule shareModule] registerWithImpl:[[self alloc] init]];
 }
 
 - (void)reloginAgain {

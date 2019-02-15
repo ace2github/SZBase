@@ -7,7 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-
+/**
+ * 1、接口实现与模块隔离~
+ */
 @interface SZModuleTester : NSObject
 + (void)runTests;
 @end

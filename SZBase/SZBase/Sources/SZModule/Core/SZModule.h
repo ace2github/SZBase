@@ -16,6 +16,7 @@
 @property (nonatomic, strong, readonly) id implementation;
 
 + (instancetype)shareModule;
-- (BOOL)implementWithImpl:(id<SZYModule>)impl;
+- (BOOL)registerWithImpl:(id<SZYModule>)impl;
+- (void)unregisterImpl;
 @end
 

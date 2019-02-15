@@ -43,7 +43,7 @@
     return _impl;
 }
 
-- (BOOL)implementWithImpl:(id<SZYModule>)impl {
+- (BOOL)registerWithImpl:(id<SZYModule>)impl {
     if (self.impl) {
         return NO;
     } else {
@@ -52,6 +52,9 @@
     return YES;
 }
 
+- (void)unregisterImpl {
+    self.impl = nil;
+}
 #pragma mark - private
 #pragma mark method
 - (BOOL)respondsToSelector:(SEL)aSelector {
