@@ -10,6 +10,7 @@
 #import "ViewController.h"
 #import "SZEasyTest.h"
 #import "SZWeekPoolTests.h"
+#import "SZModuleTester.h"
 
 @interface AppDelegate ()
 @end
@@ -30,6 +31,8 @@
     NSLog(@"\r\n");
     [SZEasyTest runTests];
     [SZWeekPoolTests runTests];
+    
+    [SZModuleTester runTests];
     return YES;
 }
 
