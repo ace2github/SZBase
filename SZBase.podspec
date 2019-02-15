@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SZBase"
-  s.version      = "0.0.4"
+  s.version      = "0.0.5"
   s.summary      = "SZBase 是基础工具类库"
 
   s.description  = <<-DESC
@@ -36,11 +36,21 @@ Pod::Spec.new do |s|
       ss.source_files = 'SZBase/SZBase/Sources/SZRWLock/**/*'
   end
 
+  s.subspec 'SZAppLife' do |ss|
+      ss.source_files = 'SZBase/SZBase/Sources/SZAppLife/Core/**/*'
+  end
+
+  s.subspec 'SZModule' do |ss|
+      ss.source_files = 'SZBase/SZBase/Sources/SZModule/Core/**/*'
+  end
+
   s.subspec 'SZBaseFoundation' do |ss|
      ss.dependency 'SZBase/SZWeekPool'
      ss.dependency 'SZBase/SZMultiDelegate'
      ss.dependency 'SZBase/SZEasyRouter'
      ss.dependency 'SZBase/SZRWLock'
+     ss.dependency 'SZBase/SZModule'
+     ss.dependency 'SZBase/SZAppLife'
   end
 
 end
